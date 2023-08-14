@@ -125,8 +125,13 @@ Concrètement, ZooKeeper peut être déployé dans un cluster pour coordonner le
 - **Gestion de la configuration** : ce service transmet à chaque nouveau rejoignant le cluster la configuration nécessaire à jour.
 - **Gestion de cluster** : ce service permet de gérer l’ajout ou la suppression des nœuds dans un cluster ainsi que l’état de chaque nœud en temps réel.
 - **Élection du chef** : l’élection d’un nœud en tant que "chef" (ou Leader) à des fins de coordination est l’une des principales fonctionnalités sur lesquelles se base ZooKeeper. Il lui permet par exemple d’effectuer une récupération automatique si l’un des nœuds, qu’on appelle les "Followers", tombe en panne.
-
-**Service de verrouillage et de synchronisation** : ce mécanisme est très utile dans la récupération automatique en cas d’échec d’un nœud.
+- **Service de verrouillage et de synchronisation** : ce mécanisme est très utile dans la récupération automatique en cas d’échec d’un nœud.
+## Bibliographie
+- [Landset, 15] Landset, Sara & Khoshgoftaar, Taghi & Richter, Aaron & Hasanin, Tawfiq. (2015). A survey of open source tools for machine learning with big data in the Hadoop ecosystem. Journal of Big Data. 2. DOI: 10.1186/s40537-015-0032-1. 
+- [Marz, 15] Marz, Nathan & Warren, James. (2015). Big Data - Principles and best practices of scalable real-time data systems. Manning Publications Co. ISBN: 9781617290343.
+- [Oussous, 17] Oussous, Ahmed & Benjelloun, Fatima-Zahra & Ait Lahcen, Ayoub & Belfkih, Samir. (2017). Big Data Technologies: A Survey. Journal of King Saud University - Computer and Information Sciences. DOI: 10.1016/j.jksuci.2017.06.001.
+- [Raj, 18] Raj, Pethuru. (2018). The Hadoop Ecosystem Technologies and Tools. Advances in Computers, Volume 109. DOI: 10.1016/bs.adcom.2017.09.002. 
+- [Singh, 18] Singh, Vikash Kumar & Taram, Manish & Agrawal, Vinni & Baghel, Bhartee Singh. (2018). A Literature Review on Hadoop Ecosystem and Various Techniques of Big Data Optimization. Springer Nature Singapore Pte Ltd. Advances in Data and Information Sciences, Lecture Notes in Networks and Systems 38. DOI: 10.1007/978-981-10-8360-0_22.
 
 [^1]: https://flume.apache.org/
 [^2]: https://sqoop.apache.org/
